@@ -1,0 +1,53 @@
+header{
+    background-image: url(phonebackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    padding-top: 27.76px;
+    padding-bottom: 199px;
+    padding-left: 200.61px;
+    padding-bottom: 370.px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    
+}
+a:hover{
+    color:#FF6565 ;
+}
+button{
+    color: white;
+    background-color: #FF6565;
+    border-radius:22px ;
+    border: none;
+}
+.our-results{
+    background-image: url(backgroundphone2page\ \(1\).png);
+}
+footer{
+    display: flex;
+    /* justify-content: space-between; */
+    background-image: url(footer_background.png);
+}
+

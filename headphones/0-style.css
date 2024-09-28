@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+html,
+body {
+  font-family: "Source Sans 3";
+}
+.container {
+  /* background-image: url(phonebackground.png); */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  align-items: center;
+  padding-top: 27px;
+}
+/* nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+} */
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 41px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+    color: #FF6565;
+}
+.header-section {
+  color: white;
+  background-size: cover;
+  background-image: url(phonebackground.png);
+  height: 100vh;
+  align-items: center;
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.sub-heading {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.header-text {
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+button {
+  color: white;
+  background-color: #ff6565;
+  border: none;
+  border-radius: 22px;
+  padding: 13px 31px;
+}
+button:hover{
+    opacity: 0.9
+}
+.header-info {
+  padding-top: 65px;
+  font-size: 16px;
+  max-width: 637px;
+  text-align: center;
+  line-height: 26px;
+  padding-bottom: 100px;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width: 480px)  {
+.nav-items{
+    display: none;
+}
+header{
+    justify-content: space-between;
+    padding-left: 21px;
+}
+.menu{
+    display: block;
+}
+.header-section{
+    background-image: url(backgroundsmall.png);
+}
+}
