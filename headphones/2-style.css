@@ -1,0 +1,10 @@
+.our-results{
+    background-image: url(backgroundphone2page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.our-results .section-style .row img{
+    width: 190px;
+    height: 190px;
+}

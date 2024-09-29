@@ -1,53 +1,27 @@
-header{
-    background-image: url(phonebackground.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat ;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px ;
-    padding-top: 27.76px;
-    padding-bottom: 199px;
-    padding-left: 200.61px;
-    padding-bottom: 370.px;
-}
-
-.container{
+.contact-us{
     margin: 0 auto;
-    max-width: 1000px;
-
-}
-.nav-items{
+    margin-top: 110px;
+    margin-bottom: 130px;
+    width: 335px;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
-a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
+.form-class{
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 57px;
     
 }
-a:hover{
-    color:#FF6565 ;
-}
-button{
-    color: white;
-    background-color: #FF6565;
-    border-radius:22px ;
+.contact-form input{
+    margin-bottom: 32px;
+    width: 100%;
     border: none;
+    border-bottom: 1px solid #979797;
 }
-.our-results{
-    background-image: url(backgroundphone2page\ \(1\).png);
+.contact-form input::placeholder{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
 }
-footer{
-    display: flex;
-    /* justify-content: space-between; */
-    background-image: url(footer_background.png);
-}
-

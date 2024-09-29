@@ -56,6 +56,7 @@ a:hover{
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 40px;
+  text-align: center;
 }
 .header-text {
     height: 100%;
@@ -98,5 +99,7 @@ header{
 }
 .header-section{
     background-image: url(backgroundsmall.png);
+    height: 100%;
+    padding-top: 327px;
 }
 }
